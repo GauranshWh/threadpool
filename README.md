@@ -49,3 +49,9 @@ build and run
 g++ -std=c++17 main_t.cpp -pthread -o thread
 ./thread
 
+
+
+Next will be building custom threadpool with work stealing
+NUMA-aware task scheduler for compute-bound workloads.
+from which we can
+Achieve 3x faster task dispatch compared to naive multithreading.
